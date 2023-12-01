@@ -17,4 +17,3 @@ require (
 )
 
 replace github.com/matm/go-nowpayments v1.0.4 => github.com/topkekega/go-nowpayments v1.0.7
-replace github.com/matm/go-nowpayments/config v1.0.4 => github.com/topkekega/go-nowpayments/config v1.0.7
