@@ -1,4 +1,4 @@
-module github.com/matm/go-nowpayments
+module github.com/topkekega/go-nowpayments
 
 go 1.18
 
