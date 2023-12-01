@@ -3,6 +3,7 @@ module github.com/topkekega/go-nowpayments
 go 1.18
 
 require (
+	github.com/matm/go-nowpayments v1.0.4
 	github.com/rotisserie/eris v0.5.4
 	github.com/stretchr/testify v1.8.1
 )
