@@ -16,7 +16,7 @@ import (
 type PaymentAmount struct {
 	PriceAmount      float64 `json:"price_amount"`
 	PriceCurrency    string  `json:"price_currency"`
-	PayCurrency      string  `json:"pay_currency"`
+	PayCurrency      string  `json:"pay_currency,omitempty"`
 	CallbackURL      string  `json:"ipn_callback_url,omitempty"`
 	OrderID          string  `json:"order_id,omitempty"`
 	OrderDescription string  `json:"order_description,omitempty"`
