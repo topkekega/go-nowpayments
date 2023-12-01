@@ -4,7 +4,6 @@ go 1.18
 
 require (
 	github.com/matm/go-nowpayments v1.0.4
-	github.com/matm/go-nowpayments/config v1.0.4
 	github.com/rotisserie/eris v0.5.4
 	github.com/stretchr/testify v1.8.1
 )
@@ -16,4 +15,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/matm/go-nowpayments v1.0.4 => github.com/topkekega/go-nowpayments v1.0.8
+replace github.com/matm/go-nowpayments v1.0.4 => github.com/topkekega/go-nowpayments v1.0.9
